@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".principal">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/mascota"/>
+
+    <Button
+        android:id="@+id/registrar"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="55dp"
+        android:drawablePadding="2dp"
+        android:padding="15dp"
+        android:background="@drawable/btn_fondo_color"
+        android:text="Registrar citas"
+        android:textColor="@android:color/white"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/mostrar"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="23dp"
+        android:background="@drawable/btn_fondo_color"
+        android:drawablePadding="2dp"
+        android:fontFamily="sans-serif-condensed"
+        android:padding="15dp"
+        android:text="Consultar citas "
+        android:textColor="@android:color/white"
+        android:textSize="20dp" />
+    <Button
+        android:id="@+id/salir"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="23dp"
+        android:drawablePadding="2dp"
+        android:fontFamily="sans-serif-condensed"
+        android:padding="15dp"
+        android:background="@drawable/btn_fondo_color"
+        android:text="Salir"
+        android:textColor="@android:color/white"
+        android:textSize="20dp" />
+
+
+
+</LinearLayout>
